@@ -1,1 +1,156 @@
-LS0tCm5hbWU6IGNvbm5lY3QtdG8tYW5vdGhlci1vcGVuY2xhdwpkZXNjcmlwdGlvbjogQ29ubmVjdCB0byBhbmQgbWFuYWdlIGFub3RoZXIgT3BlbkNsYXcgc2VydmVyIHJlbW90ZWx5LiBDaGVjayBzdGF0dXMsIHN5bmMgc2tpbGxzLCByZXN0YXJ0IGdhdGV3YXksIGFuZCBtb25pdG9yIGNoYW5uZWxzLgotLS0KCiMgQ29ubmVjdCB0byBBbm90aGVyIE9wZW5DbGF3CgojIyBXaGF0IFRoaXMgU2tpbGwgRG9lcwoKUHJvdmlkZXMgYSB1bmlmaWVkIGludGVyZmFjZSB0byBjb25uZWN0IHRvIGEgcmVtb3RlIE9wZW5DbGF3IHNlcnZlciB2aWEgU1NILCBwZXJmb3JtIGhlYWx0aCBjaGVja3MsIG1hbmFnZSBza2lsbHMsIGFuZCB0cm91Ymxlc2hvb3QgY29tbW9uIGlzc3VlcyBsaWtlIHBvcnQgY29uZmxpY3RzLgoKIyMgUHJlcmVxdWlzaXRlcwoKMS4gKipTU0ggQWNjZXNzKiogdG8gdGhlIHJlbW90ZSBtYWNoaW5lOgogICAtIFNTSCBwcml2YXRlIGtleSBmaWxlIChyZWNvbW1lbmRlZCkgT1IgcGFzc3dvcmQgYWNjZXNzCiAgIC0gUmVtb3RlIHVzZXIgbXVzdCBoYXZlIHN1ZG8vcm9vdCBwcml2aWxlZ2VzCiAgIC0gUmVtb3RlIG1hY2hpbmUgbXVzdCBoYXZlIE9wZW5DbGF3IGluc3RhbGxlZAoyLiAqKlNraWxsSHViKiogb24gYm90aCBsb2NhbCBhbmQgcmVtb3RlIChmb3Igc2tpbGwgc3luYykKMy4gTmV0d29yayBjb25uZWN0aXZpdHkgKHBvcnQgMjIgU1NIKQoKIyMgUHJpbWFyeSBXb3JrZmxvdwoKIyMjIDEuIENvbm5lY3QgYW5kIENoZWNrIFN0YXR1cwpgYGBiYXNoCmNvbm5lY3Qtb3BlbmNsYXcgLS1ob3N0IDx5b3VyLXJlbW90ZS1ob3N0PiAtLWFjdGlvbiBzdGF0dXMKYGBgCgoqKkltcG9ydGFudCoqOiBSZXBsYWNlIGA8eW91ci1yZW1vdGUtaG9zdD5gIHdpdGggeW91ciBhY3R1YWwgcmVtb3RlIHNlcnZlciBJUCBvciBkb21haW4gKGUuZy4sIGAxOTIuMTY4LjEuMTAwYCBvciBgbXlzZXJ2ZXIuY29tYCkuIFRoaXMgaXMgYSByZXF1aXJlZCBwbGFjZWhvbGRlci4KClRoaXMgd2lsbDoKLSBUZXN0IFNTSCBjb25uZWN0aXZpdHkKLSBDaGVjayBPcGVuQ2xhdyBHYXRld2F5IHN0YXR1cwotIExpc3QgYWN0aXZlIGNoYW5uZWxzIChRUUJvdCwgZXRjLikKLSBTaG93IHJlY2VudCBzZXNzaW9ucwoKIyMjIDIuIEZpeCBDb21tb24gSXNzdWVzCmBgYGJhc2gKY29ubmVjdC1vcGVuY2xhdyAtLWhvc3QgPHlvdXItcmVtb3RlLWhvc3Q+IC0tYWN0aW9uIGZpeC1wb3J0CmBgYAoKQXV0b21hdGljYWxseToKLSBEZXRlY3QgcG9ydCBjb25mbGljdHMgb24gZ2F0ZXdheSBwb3J0IChkZWZhdWx0IDE4NzkwKQotIEtpbGwgY29uZmxpY3RpbmcgcHJvY2Vzc2VzIChTU0ggdHVubmVscywgdGVzdCBzZXJ2aWNlcykKLSBSZXN0YXJ0IE9wZW5DbGF3IGdhdGV3YXkKLSBWZXJpZnkgcmVjb3ZlcnkKCiMjIyAzLiBTeW5jIFNraWxscwpgYGBiYXNoCiMgU2VlIGRpZmZlcmVuY2VzCmNvbm5lY3Qtb3BlbmNsYXcgLS1ob3N0IDx5b3VyLXJlbW90ZS1ob3N0PiAtLWFjdGlvbiBkaWZmCgojIEluc3RhbGwgcmVtb3RlJ3MgbWlzc2luZyBza2lsbHMgdG8gbG9jYWwKY29ubmVjdC1vcGVuY2xhdyAtLWhvc3QgPHlvdXItcmVtb3RlLWhvc3Q+IC0tYWN0aW9uIHN5bmMtdG8tbG9jYWwKCiMgSW5zdGFsbCBsb2NhbCdzIG1pc3Npbmcgc2tpbGxzIHRvIHJlbW90ZSAoaWYgcmVtb3RlIGhhcyBTa2lsbEh1YikKY29ubmVjdC1vcGVuY2xhdyAtLWhvc3QgPHlvdXItcmVtb3RlLWhvc3Q+IC0tYWN0aW9uIHN5bmMtdG8tcmVtb3RlCmBgYAoKIyMjIDQuIFNlbmQgTWVzc2FnZSB2aWEgUmVtb3RlIFFRQm90CmBgYGJhc2gKY29ubmVjdC1vcGVuY2xhdyAtLWhvc3QgPHlvdXItcmVtb3RlLWhvc3Q+IC0tYWN0aW9uIHNlbmQtcXFib3QgXAogIC0tc2Vzc2lvbiAiYWdlbnQ6bWFpbjpxcWJvdDpkaXJlY3Q6Li4uIiBcCiAgLS1tZXNzYWdlICJIZWxsbyBmcm9tIGxvY2FsIE9wZW5DbGF3IgpgYGAKCiMjIENvbW1hbmRzIFJlZmVyZW5jZQoKfCBDb21tYW5kIHwgRGVzY3JpcHRpb24gfAp8LS0tLS0tLS0tfC0tLS0tLS0tLS0tLS18CnwgYHN0YXR1c2AgfCBGdWxsIGhlYWx0aCBjaGVjayBvZiByZW1vdGUgT3BlbkNsYXcgfAp8IGBmaXgtcG9ydGAgfCBBdXRvLWZpeCBwb3J0IDE4NzkwIGNvbmZsaWN0cyB8CnwgYGRpZmZgIHwgQ29tcGFyZSBsb2NhbCB2cyByZW1vdGUgc2tpbGxzIHwKfCBgc3luYy10by1sb2NhbGAgfCBJbnN0YWxsIHJlbW90ZS1vbmx5IHNraWxscyB0byBsb2NhbCB8CnwgYHN5bmMtdG8tcmVtb3RlYCB8IFB1c2ggbG9jYWwtb25seSBza2lsbHMgdG8gcmVtb3RlIHwKfCBgbGlzdC1za2lsbHNgIHwgTGlzdCBhbGwgc2tpbGxzIG9uIHJlbW90ZSB8CnwgYGxpc3QtY2hhbm5lbHNgIHwgTGlzdCBjb25maWd1cmVkIGNoYW5uZWxzIHwKfCBgbGlzdC1zZXNzaW9uc2AgfCBTaG93IGFjdGl2ZSBzZXNzaW9ucyB8CnwgYHRhaWwtbG9nc2AgfCBUYWlsIE9wZW5DbGF3IGxvZ3MgZmlsdGVyZWQgYnkgY2hhbm5lbCB8CnwgYHRlc3QtY29ubmVjdGlvbmAgfCBTaW1wbGUgU1NIIHRlc3QgfAoKIyMgQ29uZmlndXJhdGlvbgoKVGhlIHNraWxsIHVzZXMgdGhlc2UgZW52aXJvbm1lbnQgdmFyaWFibGVzIChvcHRpb25hbCk6Cgp8IFZhcmlhYmxlIHwgUHVycG9zZSB8IERlZmF1bHQgfAp8LS0tLS0tLS0tLXwtLS0tLS0tLS18LS0tLS0tLS0tfAp8IGBDT05ORUNUX09QRU5DTEFXX1NTSF9LRVlgIHwgUGF0aCB0byBTU0ggcHJpdmF0ZSBrZXkgfCBgfi8uc3NoL2lkX3JzYWAgfAp8IGBDT05ORUNUX09QRU5DTEFXX1VTRVJgIHwgUmVtb3RlIHVzZXJuYW1lIHwgYHJvb3RgIHwKfCBgQ09OTkVDVF9PUEVOQ0xBV19QT1JUYCB8IFNTSCBwb3J0IHwgYDIyYCB8CnwgYENPTk5FQ1RfT1BFTkNMQVdfR0FURVdBWV9QT1JUYCB8IFJlbW90ZSBPcGVuQ2xhdyBwb3J0IHwgYDE4NzkwYCB8CgpZb3UgY2FuIGFsc28gcGFzcyB0aGVzZSBhcyBDTEkgZmxhZ3M6CmBgYGJhc2gKY29ubmVjdC1vcGVuY2xhdyAtLWhvc3QgZXhhbXBsZS5jb20gLS11c2VyIGFkbWluIC0ta2V5IH4vLnNzaC9teWtleS5wZW0gLS1hY3Rpb24gc3RhdHVzCmBgYAoKIyMgRXhhbXBsZXMKCiMjIyBRdWljayBkaWFnbm9zdGljCmBgYGJhc2gKY29ubmVjdC1vcGVuY2xhdyAtLWhvc3QgPHlvdXItcmVtb3RlLWhvc3Q+IC0tYWN0aW9uIHN0YXR1cwpgYGAKCiMjIyBGaXggcG9ydCBjb25mbGljdCBhbmQgcmVzdGFydApgYGBiYXNoCmNvbm5lY3Qtb3BlbmNsYXcgLS1ob3N0IDx5b3VyLXJlbW90ZS1ob3N0PiAtLWFjdGlvbiBmaXgtcG9ydApgYGAKCiMjIyBDb21wYXJlIHNraWxscyBiZWZvcmUgc3luY2luZwpgYGBiYXNoCmNvbm5lY3Qtb3BlbmNsYXcgLS1ob3N0IDx5b3VyLXJlbW90ZS1ob3N0PiAtLWFjdGlvbiBkaWZmCmBgYAoKIyMjIE9uZS13YXkgc3luYyAocmVtb3RlIOKGkiBsb2NhbCkKYGBgYmFzaApjb25uZWN0LW9wZW5jbGF3IC0taG9zdCA8eW91ci1yZW1vdGUtaG9zdD4gLS1hY3Rpb24gc3luYy10by1sb2NhbApgYGAKCi0tLQoKIyMgSW5zdGFsbGF0aW9uCgpJZiBub3QgYWxyZWFkeSBpbnN0YWxsZWQsIHJ1bjoKYGBgYmFzaApza2lsbGh1YiBpbnN0YWxsIGNvbm5lY3QtdG8tYW5vdGhlci1vcGVuY2xhdwpgYGAKCk9yIGNsb25lIHRoaXMgcmVwb3NpdG9yeSB0byBgfi8ub3BlbmNsYXcvd29ya3NwYWNlL3NraWxscy9jb25uZWN0LXRvLWFub3RoZXItb3BlbmNsYXcvYC4KCiMjIFJlcXVpcmVtZW50cwoKLSBQeXRob24gMy45KyAob3IgTm9kZS5qcyB2ZXJzaW9uIGlmIGltcGxlbWVudGVkIGluIEpTKQotIGBwYXJhbWlrb2AgKFB5dGhvbiBTU0ggbGlicmFyeSkgb3IgbmF0aXZlIGBzc2hgIGNvbW1hbmQKLSBBY2Nlc3MgdG8gcmVtb3RlIHNoZWxsCgojIyBUcm91Ymxlc2hvb3RpbmcKCnwgUHJvYmxlbSB8IFNvbHV0aW9uIHwKfC0tLS0tLS0tLXwtLS0tLS0tLS0tfAp8IGBTU0ggY29ubmVjdGlvbiBmYWlsZWRgIHwgQ2hlY2sga2V5IHBlcm1pc3Npb25zIChgY2htb2QgNjAwYCksIG5ldHdvcmssIGFuZCBgYXV0aG9yaXplZF9rZXlzYCB8CnwgYFNraWxsSHViIG5vdCBmb3VuZCBvbiByZW1vdGVgIHwgSW5zdGFsbCBTa2lsbEh1YiBvbiByZW1vdGUgZmlyc3QgfAp8IGBQZXJtaXNzaW9uIGRlbmllZGAgfCBFbnN1cmUgcmVtb3RlIHVzZXIgaGFzIHN1ZG8vcm9vdCBhbmQgY29ycmVjdCBrZXkgfAp8IGBQb3J0IHN0aWxsIGluIHVzZSBhZnRlciBmaXhgIHwgTWFudWFsbHkgY2hlY2sgd2l0aCBgbHNvZiAtaSA6MTg3OTBgIGFuZCBraWxsIHByb2Nlc3NlcyB8CgojIyBOb3RlcwoKLSBBbHdheXMgdGVzdCB3aXRoIGAtLWFjdGlvbiB0ZXN0LWNvbm5lY3Rpb25gIGZpcnN0Ci0gYGZpeC1wb3J0YCB3aWxsIGtpbGwgcHJvY2Vzc2VzIG1hdGNoaW5nIGBzc2ggLU4uKjE4NzkwYCBhbmQgYHZvaWNlLWJyaWRnZS1saWdodGAKLSBTa2lsbCBzeW5jIHVzZXMgU2tpbGxIdWIgQ0xJOyBlbnN1cmUgaXQncyBpbnN0YWxsZWQgb24gYm90aCBzaWRlcwotIEZvciBzYWZldHksIGBzeW5jLXRvLXJlbW90ZWAgcHJvbXB0cyBiZWZvcmUgZWFjaCBpbnN0YWxsYXRpb24gKHVzZSBgLS15ZXNgIHRvIGF1dG8tY29uZmlybSkKCi0tLQoKKipWZXJzaW9uKio6IDEuMC4wCioqQXV0aG9yKio6IOWwj+adjiAo5Z+65LqOIDIwMjYtMDMtMjgg5a6e6Le157uP6aqMKQoqKkxpY2Vuc2UqKjogTUlUCg==
+---
+name: connect-to-another-openclaw
+description: Connect to and manage another OpenClaw server remotely. Check status, sync skills, restart gateway, and monitor channels.
+---
+
+# Connect to Another OpenClaw
+
+## What This Skill Does
+
+Provides a unified interface to connect to a remote OpenClaw server via SSH, perform health checks, manage skills, and troubleshoot common issues like port conflicts.
+
+## Prerequisites
+
+1. **SSH Access** to the remote machine:
+   - SSH private key file (recommended) OR password access
+   - Remote user must have sudo/root privileges
+   - Remote machine must have OpenClaw installed
+2. **SkillHub** on both local and remote (for skill sync)
+3. Network connectivity (port 22 SSH)
+
+## Primary Workflow
+
+### 1. Connect and Check Status
+```bash
+connect-openclaw --host <your-remote-host> --action status
+```
+
+**Important**: Replace `<your-remote-host>` with your actual remote server IP or domain (e.g., `192.168.1.100` or `myserver.com`). This is a required placeholder.
+
+This will:
+- Test SSH connectivity
+- Check OpenClaw Gateway status
+- List active channels (QQBot, etc.)
+- Show recent sessions
+
+### 2. Fix Common Issues
+```bash
+connect-openclaw --host <your-remote-host> --action fix-port
+```
+
+Automatically:
+- Detect port conflicts on gateway port (default 18790)
+- Kill conflicting processes (SSH tunnels, test services)
+- Restart OpenClaw gateway
+- Verify recovery
+
+### 3. Sync Skills
+```bash
+# See differences
+connect-openclaw --host <your-remote-host> --action diff
+
+# Install remote's missing skills to local
+connect-openclaw --host <your-remote-host> --action sync-to-local
+
+# Install local's missing skills to remote (if remote has SkillHub)
+connect-openclaw --host <your-remote-host> --action sync-to-remote
+```
+
+### 4. Send Message via Remote QQBot
+```bash
+connect-openclaw --host <your-remote-host> --action send-qqbot \
+  --session "agent:main:qqbot:direct:..." \
+  --message "Hello from local OpenClaw"
+```
+
+## Commands Reference
+
+| Command | Description |
+|---------|-------------|
+| `status` | Full health check of remote OpenClaw |
+| `fix-port` | Auto-fix port 18790 conflicts |
+| `diff` | Compare local vs remote skills |
+| `sync-to-local` | Install remote-only skills to local |
+| `sync-to-remote` | Push local-only skills to remote |
+| `list-skills` | List all skills on remote |
+| `list-channels` | List configured channels |
+| `list-sessions` | Show active sessions |
+| `tail-logs` | Tail OpenClaw logs filtered by channel |
+| `test-connection` | Simple SSH test |
+
+## Configuration
+
+The skill uses these environment variables (optional):
+
+| Variable | Purpose | Default |
+|----------|---------|---------|
+| `CONNECT_OPENCLAW_SSH_KEY` | Path to SSH private key | `~/.ssh/id_rsa` |
+| `CONNECT_OPENCLAW_USER` | Remote username | `root` |
+| `CONNECT_OPENCLAW_PORT` | SSH port | `22` |
+| `CONNECT_OPENCLAW_GATEWAY_PORT` | Remote OpenClaw port | `18790` |
+
+You can also pass these as CLI flags:
+```bash
+connect-openclaw --host example.com --user admin --key ~/.ssh/mykey.pem --action status
+```
+
+## Examples
+
+### Quick diagnostic
+```bash
+connect-openclaw --host <your-remote-host> --action status
+```
+
+### Fix port conflict and restart
+```bash
+connect-openclaw --host <your-remote-host> --action fix-port
+```
+
+### Compare skills before syncing
+```bash
+connect-openclaw --host <your-remote-host> --action diff
+```
+
+### One-way sync (remote → local)
+```bash
+connect-openclaw --host <your-remote-host> --action sync-to-local
+```
+
+---
+
+## Installation
+
+If not already installed, run:
+```bash
+skillhub install connect-to-another-openclaw
+```
+
+Or clone this repository to `~/.openclaw/workspace/skills/connect-to-another-openclaw/`.
+
+## Requirements
+
+- Python 3.9+ (or Node.js version if implemented in JS)
+- `paramiko` (Python SSH library) or native `ssh` command
+- Access to remote shell
+
+## Troubleshooting
+
+| Problem | Solution |
+|---------|----------|
+| `SSH connection failed` | Check key permissions (`chmod 600`), network, and `authorized_keys` |
+| `SkillHub not found on remote` | Install SkillHub on remote first |
+| `Permission denied` | Ensure remote user has sudo/root and correct key |
+| `Port still in use after fix` | Manually check with `lsof -i :18790` and kill processes |
+
+## Notes
+
+- Always test with `--action test-connection` first
+- `fix-port` will kill processes matching `ssh -N.*18790` and `voice-bridge-light`
+- Skill sync uses SkillHub CLI; ensure it's installed on both sides
+- For safety, `sync-to-remote` prompts before each installation (use `--yes` to auto-confirm)
+
+---
+
+**Version**: 1.0.0
+**Author**: 小李 (基于 2026-03-28 实践经验)
+**License**: MIT
